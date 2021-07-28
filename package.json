@@ -1,0 +1,25 @@
+{
+  "name": "eventapp_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanFe12/Eventapp_api.git"
+  },
+  "author": "juanfelipeariastabares007@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanFe12/Eventapp_api/issues"
+  },
+  "homepage": "https://github.com/JuanFe12/Eventapp_api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
