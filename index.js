@@ -1,4 +1,7 @@
-//m {  } from './config/enviroments'
-const { NODE_ENV } = require('./config/enviroments')
+const container = require("./api/container")
+const application = container.resolve("app")
 
-console.log(NODE_ENV);
+application.start().catch(err => {
+    console.log(err);
+    process.exit();
+})
